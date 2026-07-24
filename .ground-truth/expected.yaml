@@ -1,0 +1,10 @@
+id: P11-E07
+repository: aci-gt-p11-path-mismatch
+visibility: public
+stage: P1
+rule: P1.1
+kind: experiment
+atomic_variable: "event/type 匹配但 path filter 不匹配"
+expected_status: BLOCKED
+setup: AUTO_FILES
+configuration_state: COMPLETE
