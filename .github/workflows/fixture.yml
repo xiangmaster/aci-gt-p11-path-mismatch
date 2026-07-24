@@ -1,0 +1,12 @@
+name: Ground Truth P11-E07
+on:
+  pull_request:
+    types: [opened]
+    paths: ['docs/**']
+permissions: read-all
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo P11-E07
